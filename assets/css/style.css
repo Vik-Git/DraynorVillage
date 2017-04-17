@@ -1,0 +1,806 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+	background-color: transparent;
+	font-family: 'Arial', sans-serif;
+	font-size:11pt;
+}
+ul{
+	margin-bottom: 0px;
+}
+
+#thumbs{
+	width: 600px;
+	height:100px;
+	text-align: center;
+	margin:auto;
+}
+
+
+#registertitle{
+	text-align: center;
+}
+
+
+#registerform{
+	width:500px;
+	margin: auto;
+}
+
+#registerform input{
+	width:100%;
+	height:30px;
+	margin-bottom: 10px;
+}
+
+#registerform input:focus{
+	width:100%;
+	height:30px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-color: #0069b4;
+	border-width: 1px;
+	-webkit-box-shadow: 0 0 5px 2px #9EBEFF;
+	box-shadow: 0 0 5px 2px #9EBEFF;
+}
+
+#thumbs h2{
+	margin: 0px;
+	margin-bottom: 20px;
+	color:#bababa;
+	font-size: 16pt;
+
+}
+
+#thumbs img:nth-child(3){
+	
+	margin-left: 50px;
+}
+
+#thumbs img:nth-child(4){
+	
+	margin-left: 50px;
+}
+
+.shoplist li{
+	background-color: white;
+	padding: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.achievlist li{
+		background-color: white;
+	padding: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.achievlist li button{
+	border-style: none;
+background-color: #0069b4;
+color:white;
+width:50px;
+float:right;
+}
+
+.achievlist li button:hover{
+background-color: #004779;
+}
+
+
+.shoplist li button:hover{
+background-color: #004779;
+}
+
+
+#shopcontainer label{
+	margin-left: 15px;
+}
+
+.shoplist li button{
+	border-style: none;
+background-color: #0069b4;
+color:white;
+width:50px;
+float:right;
+}
+
+nav ul{
+	padding-top: 8px;
+}
+
+.totalwagered{
+	color: #333333;
+	padding-left: 420px;
+}
+
+.totalwager{
+	color:#0069b4;
+}
+
+#requestlist p{
+background-color: white;
+padding:15px;
+}
+
+#requestlist button{
+float:right;
+border-style: none;
+background-color: #0069b4;
+color:white;
+height: 30px;
+}
+
+#paneltrigger{
+width: 50px;
+height:50px;
+position: absolute;
+margin-left: -50px;
+background-image: url("../img/min.png");
+}
+
+#paneltrigger:hover{
+cursor: pointer;
+}
+
+#requestlist{
+	height:auto;
+	background-color: #efeded;
+}
+
+#tradercont{
+	margin:auto;
+	width:800px;
+}
+
+#tradercont h1{
+	color:white;
+	text-align: center;
+}
+
+
+.changedetails label{
+	display: block;
+	color:black;
+}
+
+.changedetails input[type=submit]{
+margin-top: 20px;
+}
+
+#historybox{
+	width:600px;
+	height:auto;
+	margin:auto;
+	text-align: center;
+	margin-top: 110px;
+
+}
+
+#historycont{
+	width:600px;
+	height:auto;
+	margin:auto;
+   background-color: #efeded;
+}
+
+#historycont h1{
+	padding-top: 5px;
+ color:#0069b4;
+}
+
+#historycont p{
+ padding-bottom: 10px;
+}
+
+
+.day{
+	 color:#0069b4;
+}
+
+
+.cashier{
+	text-align: center;
+}
+
+.cashier label{
+	display: box;
+	color:black;
+	margin-bottom: 15px;
+}
+
+.cashier button{
+  	border-style: none;
+	background-color: #0069b4;
+	color:white;
+	height: 30px;
+	margin-top: 15px;
+}
+
+input[type=submit] {
+    border-style: none;
+	background-color: #0069b4;
+	color:white;
+	height: 30px;
+}
+
+input[type=submit]:hover {
+	background-color: #004779;
+}
+
+
+.cashier button:hover{
+background-color: #004779;
+}
+
+.tstatus{
+	font-weight: bold;
+}
+.rollresult{
+margin-top: 15px;
+}
+
+.reached{
+	color:green;
+}
+
+.notreached{
+	color:red;
+}
+
+
+#profilecontainer button:hover{
+	background-color: #004779;
+}
+
+#gamepanel input{
+	border-style: solid;
+	border-color: #0069b4;
+	border-width: 1px;
+}
+
+#gamepanel button:hover{
+	background-color: #004779;
+}
+
+
+#gamepanel label{
+	display: block;
+	color:black;
+}
+
+
+#gamepanel .multlabel,#gamepanel .targetlabel{
+	display: inline;
+
+}
+
+.wagerbox{
+	width:335px;
+	margin-bottom: 15px;
+}
+
+
+.serverseed{
+	width:320px;
+}
+
+
+.rollresult{
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+}
+
+.clientseed{
+	width:320px;
+}
+
+.target{
+	display: inline;
+	width: 80px;
+	margin-right: 80px;
+}
+
+.mult{
+	display: inline;
+	width: 85px;
+}
+
+.overunder{
+	width:100%;
+	margin-top: 15px;
+}
+
+
+#gamepanel button{
+	border-style: none;
+	background-color: #0069b4;
+	color:white;
+	height:30px;
+}
+
+#gamepanel form button.roll{
+	margin-top:35px;
+	width:100%;
+	height: 50px;
+}
+
+#gamepanel input{
+	height: 30px;
+}
+
+#gamepanel ul{
+	background-color: #0069b4;
+	height:37px;
+}
+
+#gamepanel img{
+	margin-left: 15px;
+}
+
+#gamepanel li{
+	display: inline-block;
+	margin-top: 8px;
+	padding-left: 3px;
+	color:white;
+}
+
+
+#gamepanel form{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+.pokerform{
+	visibility: hidden;
+	position: absolute;
+	margin-top: -480px;
+}
+
+
+#gamepanel{
+	position: absolute;
+	top: 150px;
+	left: 30%;
+	width: 400px;
+	height: 530px;
+	z-index: 1;
+	background-color: #efeded;
+		-webkit-box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.30);
+           -moz-box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.30);
+                box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.30);
+}
+
+
+.chat{
+	display: inline-block;
+	height: 31px;
+	width:35px;
+	background-image: url("../img/icochat.png");
+	background-repeat: no-repeat;
+	float:left;
+	margin-left:75px;
+}
+
+.chat:hover{
+	background-image: url("../img/icochatM.png");
+}
+
+
+.profile:hover{
+	background-image: url("../img/icoprofileM.png");
+}
+
+.free:hover{
+	background-image: url("../img/icofreeM.png");
+}
+
+
+.profile{
+	display: inline-block;
+	height: 31px;
+	width:35px;
+	background-image: url("../img/icoprofile.png");
+	background-repeat: no-repeat;
+	float: left;
+	margin-left:80px;
+}
+
+.free{
+	display: inline-block;
+	height: 31px;
+	width:35px;
+	background-image: url("../img/icofree.png");
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 75px;
+}
+
+.row.header .logoimg{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+
+#loginbox{
+	width:600px;
+	height: auto;
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top:250px;
+	text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.box .row {
+  flex: 0 1 0px;
+
+}
+
+
+.asiderow{
+	margin-left: auto;
+}
+
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.box .row.header {
+	z-index: -1:;
+  flex: 0 0 auto;
+}
+
+.box .row.content {
+	z-index: 10;
+	margin-left:auto;
+  flex: 1 1 auto;
+}
+
+#usermenu{
+	float: right;
+	width: 420px;
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+
+#profilecontainer{
+	display: none;
+	width: 420px;
+	margin-top:15px;
+}
+
+#shopcontainer{
+	display: none;
+	width: 420px;
+	margin-top:15px;
+}
+
+#shopcontainer label{
+	color:black;
+}
+
+#shopcontainer h1{
+	color:black;
+	text-align: center;
+}
+
+#shopcontainer h1:nth-child(4){
+	margin-top: 60px;
+}
+
+
+
+#profilecontainer h1{
+	color:black;
+	text-align: center;
+}
+
+#profilecontainer p{
+	margin:15px;
+	padding: 5px;
+	background-color: white;
+}
+
+#profilecontainer button{
+	display: block;
+	width: 390px;
+	height:30px;
+	margin: auto;
+	border-style: none;
+	color:white;
+	background-color: #0069b4;
+}
+
+
+.username{
+display: inline;
+padding-left: 10px;
+}
+
+#chat .username{
+	font-weight: 700;
+}
+
+iframe{
+	visibility: hidden;
+}
+
+td{
+	text-align: center;
+}
+
+td:hover{
+	cursor: pointer;
+	background-color: #0069b4;
+}
+
+
+#userpm{
+	margin-top: 15px;
+	height:30px;
+	width:255px;
+}
+
+#submitpm{
+	width:100px;
+}
+
+
+#chatcontainer input{
+margin-left:15px;
+margin-top: 15px;
+height:30px;
+width:255px;
+}
+
+#chatcontainer input[type=submit] {
+border-style: none;
+background-color: #0069b4;
+color: white;
+width:100px;
+}
+
+
+#traderchat2{
+	overflow: auto;
+	width: 567px;
+	height:400px;
+	background-color: #efeded;
+}
+
+
+#traderchat{
+	overflow: auto;
+	width: 567px;
+	height:400px;
+	background-color: #efeded;
+}
+
+#chat{
+	float: right;
+	overflow: auto;
+	width: 420px;
+	height:750px;
+}
+#messagebubble{
+	margin:15px;
+	padding: 10px;
+	height: auto;
+	background-color: white;
+}
+.adminmsg{
+	color:#0069b4;
+}
+
+#messagebubble p{
+	 display: inline;
+	word-wrap: break-word;
+   	width: 350px;
+}
+
+.dropdown{
+	display: inline-block;
+}
+
+#logoutbutton{
+	margin-left: 7px;
+}
+
+.cashierbtn{
+	border-style: none;
+	background-color: #0069b4;
+	color: white;
+	width:80px;
+	height:50px;
+	margin-left:50px;
+    border-bottom: solid 10px #004779;
+}
+
+.cashierbtn:hover{
+ background-color: #004779;
+}
+
+
+header{
+	z-index: 11;
+	min-width:100%;
+	height:80px;
+	background-color: #efeded;
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.15);
+	   -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.15);
+			box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.15);
+}
+
+
+nav{
+	min-width: 420px;
+	height: 50px;
+	background-color: #0069b4;
+}
+
+aside{
+    height: 100%;
+	width:420px;
+	background-color: #efeded;
+	-webkit-box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.30);
+       -moz-box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.30);
+            box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.30);
+}
+
+a{
+	font-weight: 700;
+}
+
+
+label{
+	margin-top:25px;
+	color: #f0f0f0;
+}
+
+h1{
+	color:#bababa;
+	font-size: 18pt;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.signup input:nth-of-type(1){
+	border-style: none;
+	margin-top:25px;
+	width:350px;
+	height:34px;
+	background-color: #efeded;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+
+.signup input:nth-of-type(2){
+display: block;
+margin-top: -29px;
+margin-left:400px;
+border:0 none;
+}
+
+.login{
+	padding-left: 10px;
+}
+
+
+@media (max-width: 1400px) {
+	#gamepanel{
+		top: 150px;
+		left: 10%;
+	}
+	.totalwagered{
+	padding-left: 50px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#gamepanel{
+		top: 150px;
+		left: 0%;
+	}
+}
+
+
+@media (max-height: 900px) {
+	#chat{
+		height:700px;
+	}
+}
+@media (max-height: 850px) {
+	#chat{
+		height:650px;
+	}
+}
+@media (max-height: 800px) {
+	#chat{
+		height:600px;
+	}
+}
+@media (max-height: 750px) {
+	#chat{
+		height:550px;
+	}
+}
+@media (max-height: 700px) {
+	#chat{
+		height:500px;
+	}
+}
+@media (max-height: 650px) {
+	#chat{
+		height:450px;
+	}
+}
+@media (max-height: 600px) {
+	#chat{
+		height:400px;
+	}
+}
+@media (max-height: 550px) {
+	#chat{
+		height:350px;
+	}
+}
+@media (max-height: 500px) {
+	#chat{
+		height:300px;
+	}
+}
+@media (max-height: 450px) {
+	#chat{
+		height:250px;
+	}
+}
+@media (max-height: 400px) {
+	#chat{
+		height:200px;
+	}
+}
+@media (max-height: 300px) {
+	#chat{
+		height:150px;
+	}
+}
+
+@media (max-height: 200px) {
+	#chat{
+		height:100px;
+	}
+}
